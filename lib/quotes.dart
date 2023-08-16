@@ -2,7 +2,10 @@ class Quote {
   final String text;
   final String author;
 
-  const Quote({required this.text, required this.author});
+  const Quote({
+    required this.text,
+    required this.author,
+  });
 
   static List<Quote> quotes = [
     const Quote(
@@ -13,7 +16,7 @@ class Quote {
     const Quote(
       text:
           "Success is not final, failure is not fatal: it is the courage to continue that counts",
-      author: "Winston Churchil",
+      author: "Winston Churchill",
     ),
     const Quote(
       text: "The only way to do great work is to love what you do.",
@@ -21,10 +24,10 @@ class Quote {
     ),
     const Quote(
       text: "You can never be overdressed or overeducated",
-      author: "-Oscar Wilde",
+      author: "- Oscar Wilde",
     ),
     const Quote(
-      text: "Everybody has a plan until they get punched in face",
+      text: "Everybody has a plan until they get punched in the face",
       author: "Mike Tyson",
     ),
     const Quote(
@@ -37,16 +40,16 @@ class Quote {
     ),
     const Quote(
       text: "Fashion is the armour to survive the reality of everyday life.",
-      author: "Bill Cunnigham",
+      author: "Bill Cunningham",
     ),
     const Quote(
       text: "I am the greatest, I said that even before I knew I was.",
-      author: "M. Ali",
+      author: "Muhammad Ali",
     ),
     const Quote(
       text:
           "I have a theory that movies operate on the level of dreams, where you dream yourself.",
-      author: "Ford Coppola",
+      author: "Francis Ford Coppola",
     ),
   ];
 }
